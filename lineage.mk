@@ -1,4 +1,4 @@
-# Inherit some common CM stuff.
+# Inherit some common Lineage stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Enhanced NFC
@@ -14,7 +14,7 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 960
 TARGET_SCREEN_WIDTH := 540
 
-PRODUCT_NAME := cm_xt907
+PRODUCT_NAME := lineage_xt907
 TARGET_VENDOR_PRODUCT_NAME := XT907_verizon
 TARGET_VENDOR_DEVICE_NAME := scorpion_mini
 
